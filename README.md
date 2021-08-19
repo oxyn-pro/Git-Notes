@@ -6,6 +6,11 @@ git init .
 ```
 - Create a git repository in directory
 
+```
+git status
+```
+- Check status in order to understand which files are added to staging area and which are not, see branch and etc.
+
 #### Add to staging area:
 ```
 git add <file_name>
@@ -16,6 +21,11 @@ git add <file_name>
 git add .
 ```
 - Add all files into staging area
+
+```
+git add -A
+```
+- Add every single file into staging area regardless of their location in git repository directory
 
 #### Remove from staging area:
 ```

@@ -78,3 +78,19 @@ git restore <file_name>
 git commit --amend -m "Any message"
 ```
 - Amend - make change in message (text) with given message and commit to the last commit.
+
+## Remote repository (GitHub)
+
+#### Mapp remote repo with local repo
+
+```
+git add remote origin <link_to_remote_repo>
+```
+- To connect local repository with remote repository (created repository)
+
+#### Change branch from one branch to another
+
+```
+git branch -M main
+```
+- Change the name of the current branch (master) to main

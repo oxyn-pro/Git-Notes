@@ -94,3 +94,29 @@ git add remote origin <link_to_remote_repo>
 git branch -M main
 ```
 - Change the name of the current branch (master) to main
+
+## Configure SSH keys in order to permit access to change repository from a specific device.
+
+#### 1) Generating the SSH key:
+```
+ssh-keygen -t ed25519 -C "your_email_address"
+```
+OPTIONAL: you can add passphrase (recommended)
+
+#### 2) Adding the SSH key to the ssh-agent:
+```
+$ eval "$(ssh-agent -s)"
+```
+This means, start the ssh-agent in the background
+
+- #### Adding the SSH private key to the ssh-agent:
+```
+ssh-add ~/.ssh/id_ed25519
+```
+#### 3) Adding the SSH key to GitHub account:
+```
+clip < ~/.ssh/id_ed25519.pub
+```
+Copies the contents of the id_ed25519.pub file to your clipboard
+
+#### The next step is just inserting copied SSH to SSH section in GitHub account.

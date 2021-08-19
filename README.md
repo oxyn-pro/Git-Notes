@@ -95,6 +95,18 @@ git branch -M main
 ```
 - Change the name of the current branch (master) to main
 
+#### Git Push to remote repository
+
+```
+git push -u origin main
+```
+- Pushing local repository commits to remote repository
+
+```
+git remote remove origin
+```
+- Removing an origin
+
 ## Configure SSH keys in order to permit access to change repository from a specific device.
 
 #### 1) Generating the SSH key:

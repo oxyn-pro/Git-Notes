@@ -157,7 +157,7 @@ git branch -a
 ```
 - To see all branches
 
-#### Create, switch branches
+#### Create, switch, delete branches
 
 ```
 git branch <branch_name>
@@ -173,5 +173,15 @@ git checkout <branch_name>
 git checkout -
 ```
 - Switch to previous branch
+
+```
+git checkout -b <new_branch_name>
+```
+- It will create a new branch and automatically switch to that new branch
+
+```
+git delete -D <branch_name>
+```
+- Delete a particular branch
 
 #### NOTE: all commits with changes created in different branch will not be added/included in main branch

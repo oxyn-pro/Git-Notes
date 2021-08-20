@@ -107,6 +107,11 @@ git remote remove origin
 ```
 - Removing an origin
 
+```
+git pull origin
+```
+- Pull changes from remote repository to local repository
+
 ## Configure SSH keys in order to permit access to change repository from a specific device.
 
 #### 1) Generating the SSH key:

@@ -140,17 +140,38 @@ Copies the contents of the id_ed25519.pub file to your clipboard
 
 ## Branches
 
+#### Check branches
+
 ```
 git branch
 ```
 - To see current branch
 
 ```
-git branch -a
-```
-- To see all local branches
-
-```
 git branch -r
 ```
 - To see current remote branches
+
+```
+git branch -a
+```
+- To see all branches
+
+#### Create, switch branches
+
+```
+git branch <branch_name>
+```
+- Create a branch with particular name
+
+```
+git checkout <branch_name>
+```
+- Switch to a particular branch
+
+```
+git checkout -
+```
+- Switch to previous branch
+
+#### NOTE: all commits with changes created in different branch will not be added/included in main branch

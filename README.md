@@ -137,3 +137,20 @@ clip < ~/.ssh/id_ed25519.pub
 Copies the contents of the id_ed25519.pub file to your clipboard
 
 #### The next step is just inserting copied SSH to SSH section in GitHub account.
+
+## Branches
+
+```
+git branch
+```
+- To see current branch
+
+```
+git branch -a
+```
+- To see all local branches
+
+```
+git branch -r
+```
+- To see current remote branches

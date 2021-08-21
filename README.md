@@ -54,6 +54,16 @@ git commit -a
 ```
 - Make a commit with message
 
+```
+git log
+```
+- See commits history
+
+```
+git log --oneline
+```
+- See commits history (oneline: id of commit, name of commit)
+
 #### Show difference
 ```
 git show <commit_id>

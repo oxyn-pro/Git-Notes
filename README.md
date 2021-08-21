@@ -184,5 +184,12 @@ git delete -D <branch_name>
 ```
 - Delete a particular branch
 
+```
+git merge <branch_name>
+```
+- Delete a particular branch
+
 #### NOTE: all commits with changes created in different branch will not be added/included in main branch
 #### NOTE: In a company, the programmer never pushes to the main branch first, usually the programmer creates a new branch, adds all the features and creates a pull request, then someone reviews those changes, and then decides whether to push programmer's changes to the main branch or not.
+
+

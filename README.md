@@ -199,6 +199,18 @@ git merge <branch_name>
 ```
 - Delete a particular branch
 
+#### Rebase is useful when for example main branch was uptaded but the branch that you are working is not updated with main branche's commits, here rebase pulls main branch's changes into your working branch and the commits of your current branch stores in the top of the commit history when commits of main stores in buttom of history.
+
+```
+git pull --rebase origin main
+```
+- Pull and rebase main branch to current branch
+
+```
+git rebase --continue
+```
+- Continues rebase after fixing a conflict
+
 #### NOTE: all commits with changes created in different branch will not be added/included in main branch
 #### NOTE: In a company, the programmer never pushes to the main branch first, usually the programmer creates a new branch, adds all the features and creates a pull request, then someone reviews those changes, and then decides whether to push programmer's changes to the main branch or not.
 

@@ -217,3 +217,6 @@ git rebase --continue
 
 #### Basic writing and formating syntax
 https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
+#### Necessary guidline
+https://github.com/git-guides/

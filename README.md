@@ -94,7 +94,7 @@ git commit --amend -m "Any message"
 #### Mapp remote repo with local repo
 
 ```
-git add remote origin <link_to_remote_repo>
+git remote add origin <link_to_remote_repo>
 ```
 - To connect local repository with remote repository (created repository)
 

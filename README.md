@@ -215,3 +215,5 @@ git rebase --continue
 #### NOTE: In a company, the programmer never pushes to the main branch first, usually the programmer creates a new branch, adds all the features and creates a pull request, then someone reviews those changes, and then decides whether to push programmer's changes to the main branch or not.
 
 
+#### Basic writing and formating syntax
+https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax

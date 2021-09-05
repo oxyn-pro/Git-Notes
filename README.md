@@ -103,6 +103,11 @@ git remote add origin <link_to_remote_repo>
 ```
 git branch -M main
 ```
+
+Rename Local repo's GitHub branch
+
+![Rename Local repo's GitHub branch](https://user-images.githubusercontent.com/69118015/132126706-74b388b5-d395-462e-af15-8440b88fa8e9.png)
+
 - Change the name of the current branch (master) to main
 
 #### Git Push to remote repository

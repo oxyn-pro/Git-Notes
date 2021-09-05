@@ -199,6 +199,8 @@ git merge <branch_name>
 ```
 - Delete a particular branch
 
+![branches](https://user-images.githubusercontent.com/69118015/132126619-95c95e5e-5006-419d-a843-33433374b40e.png)
+
 #### Rebase is useful when for example main branch was uptaded but the branch that you are working is not updated with main branche's commits, here rebase pulls main branch's changes into your working branch and the commits of your current branch stores in the top of the commit history when commits of main stores in buttom of history.
 
 ```
